@@ -1,0 +1,28 @@
+
+.blogscroll{
+   
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.blogscroll::-webkit-scrollbar{
+    width:5px;
+    border-radius:10px;
+    
+}
+.blogscroll::-webkit-scrollbar-thumb{
+    width:5px;
+    border-radius:10px;
+    background-color: black;
+}
+.blogscroll::-webkit-scrollbar-button{
+    width:5px;
+    border-radius:10px;
+    background-color: blue;
+}
+
+.blogscroll::-webkit-scrollbar-track-piece{
+    width:5px;
+    border-radius:10px;
+    background-color: white;
+}
